@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UFT-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maria Luise Britto</title>
+    <link rel="stylesheet" href="css/blogGrid.css" />
+</head>
+
+<body>
+    <div class="home-container">
+        <header class="navbar">
+            <nav>
+                <a href="indexGrid.html"><img src="/images/brand.png" alt="logo" /></a>
+                <ul>
+                    <li><a href="#main">Início</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+                <button class="button">Login</button>
+            </nav>
+        </header>
+
+        <main class="main" id="main">
+            <article>
+                <h3 class="digitando">Olá, eu sou a Maria Luise.</h3>
+                <p>Sou desenvolvedora Web FullStack. Gosto de unir lógica e criatividade para criar
+                    soluções digitais funcionais, intuitivas e bem projetadas. Valorizo o aprendizado contínuo, a
+                    clareza nas entregas e a colaboração em equipe.</p>
+
+                <p>Tenho experiência no desenvolvimento frontend e backend com HTML, CSS, Java e Python. Também trabalho
+                    com SQL para modelagem de dados e construção de consultas eficientes.</p>
+
+                <p>Possuo prática na integração e criação de APIs, desenvolvendo sistemas que se comunicam com serviços
+                    externos de forma segura e eficaz.</p>
+
+            </article>
+        </main>
+
+        <aside class="aside">
+            <img src="/images/perfil-informal.jpg" alt="Perfil" />
+        </aside>
+
+        <section class="main-projetos" id="projetos">
+            <h2>Meus projetos</h2>
+            <p>Nesta seção, compartilho alguns dos projetos que desenvolvi ao longo da minha jornada. Cada um deles
+                reflete meu
+                crescimento como desenvolvedora e minha dedicação em entregar algo funcional, bonito e acessível.
+                Fique <span style="font-weight: bold;">à vontade para explorar</span>! E, se quiser conversar sobre algum deles ou tiver ideias novas, será um
+                prazer trocar
+                ideias com você.</p>
+
+            <div class="cards-container">
+                <div class="card">
+                    <a href="https://github.com/MariaLuiseB" class="card-title"><img src="/images/delivery.jpg" alt="Delivery Fominha"></a>
+                    <p><a href="https://github.com/MariaLuiseB">Delivery Fominha</a></p>
+                </div>
+                <div class="card">
+                    <a href="https://github.com/MariaLuiseB" class="card-title"><img src="/images/anime.webp" alt="Animendly"></a>
+                    <p><a href="https://github.com/MariaLuiseB">Animendly</a></p>
+                </div>
+                <div class="card">
+                    <a href="https://github.com/MariaLuiseB"class="card-title"><img src="/images/filmes.webp" alt="Screen Match"></a>
+                    <p><a href="https://github.com/MariaLuiseB">Screen Match</a></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="main-skills" id="skills">
+            <h2>Hard Skills</h2>
+            <ul class="skills-container">
+                <li><img src="/images/002-java.png" alt="Java"></li>
+                <li><img src="/images/001-version-control.png" alt="Git"></li>
+                <li><img src="/images/006-sql.png" alt="SQL"></li>
+                <li><img src="/images/003-html.png" alt="HTML"></li>
+                <li><img src="/images/004-css.png" alt="CSS"></li>
+                <li><img src="/images/005-api.png" alt="API"></li>
+            </ul>
+
+            <h2>Soft Skills</h2>
+
+            <ul class="skills-container">
+                <li>Comunicação</li>
+                <li>Colaboração</li>
+                <li>Resiliência</li>
+            </ul>
+        </section>
+
+        <section class="main-contato" id="contato">
+            <h2>Fale Comigo</h2>
+            <form action="/assuntos.txt" method="get" class="contato-form">
+
+                <label for="nome">Nome </label>
+                <input type="text" name="nome" placeholder="Digite seu nome aqui" />
+
+
+                <label for="Email">Email </label>
+                <input type="email" name="email" placeholder="xxxx@xxxx.com" />
+
+                <label for="assunto">Assunto </label>
+                <input type="text" name="assunto" placeholder="Digite o assunto" />
+
+                <label for="mensagem">Mensagem </label>
+                <textarea name="mensagem" rows="3" placeholder="Digite sua mensagem aqui"></textarea>
+
+                <div class="contato-checkbox-row">
+                    <label for="newsletter">Desejo receber a newsletter</label>
+                    <input type="checkbox" name="newsletter" />
+                </div>
+
+                <button type="submit" class="button">Enviar</button>
+            </form>
+        </section>
+
+        <footer class="footer">
+            <p>All rights reserved to Maria Luise Britto ©, 2025.</p>
+            <div class="contato-icones">
+                <a href=""><img src="/images/correspondencia.png" alt="Gmail"></a>
+                <a href=""><img src="/images/whatsapp.png" alt="Whatsapp"></a>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
